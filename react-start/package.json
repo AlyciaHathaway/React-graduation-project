@@ -15,5 +15,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://alyciahathaway.github.io/React-graduation-project/react-start"
+  "homepage": "https://alyciahathaway.github.io/React-graduation-project/react-start/build"
 }
