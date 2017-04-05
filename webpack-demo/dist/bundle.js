@@ -68,12 +68,11 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-/* unused harmony default export */ var _unused_webpack_default_export = (function() {
-    return '方方的教程'
-});
+// export default function() {
+//     return '方方的教程'
+// }
 
 var print = console.log('方方的教程')
 
@@ -27440,6 +27439,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_jquery__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_jquery__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__foo__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__foo___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__foo__);
 
 
 // import i from './foo';
@@ -27450,7 +27450,7 @@ function component () {
 	var element = __WEBPACK_IMPORTED_MODULE_1_jquery___default()('<div></div>');
 	/* lodash is required for the next line to work */
 	// element.innerHTML = _.join(['Hello','webpack'], ' ');
-	element.html(__WEBPACK_IMPORTED_MODULE_0_lodash___default.a.join(['Hello','webpack'], ' '));
+	element.html(__WEBPACK_IMPORTED_MODULE_0_lodash___default.a.join(['Hi','webpack'], ' '));
 	// return element;
 	return element.get(0);
 }

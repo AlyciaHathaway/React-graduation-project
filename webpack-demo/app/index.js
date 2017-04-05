@@ -8,7 +8,7 @@ function component () {
 	var element = $('<div></div>');
 	/* lodash is required for the next line to work */
 	// element.innerHTML = _.join(['Hello','webpack'], ' ');
-	element.html(_.join(['Hello','webpack'], ' '));
+	element.html(_.join(['Test','webpack'], ' '));
 	// return element;
 	return element.get(0);
 }
